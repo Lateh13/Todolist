@@ -28,13 +28,29 @@
   color: #61dafb;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
+.style-table {
+  margin: auto;
+  padding: auto;
+}
+
+.style-table th {
+  border-bottom: thin solid;
+  background-color: rgb(162, 175, 189);
+  height: 25px;
+  min-width: 120px;
+}
+
+.style-table td {
+  height: 20px;
+}
+
+.style-table tr:nth-child(odd) {
+  background-color: #e6e0e0;
 }
 
 .center {
   text-align: center;
+  overflow-x:auto;
 }
 
 .heading {
@@ -48,6 +64,7 @@ table {
   padding: 20px;
   border-style: groove;
 }
+
 
 @keyframes App-logo-spin {
   from {

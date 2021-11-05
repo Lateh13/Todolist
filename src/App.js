@@ -29,11 +29,11 @@ function Todolist() {
                 &nbsp;&nbsp;&nbsp;&nbsp;Date: <input type="text" name="date" onChange={inputChanged} value={todo.date}/>
                 <input type="submit" value="Add"/>
             </form>
-            <table>
+            <table className="style-table">
                 <tbody>
                     <tr>
-                        <td>Date</td>
-                        <td>Description</td>
+                        <th>Description</th>
+                        <th>Date</th>
                     </tr>
                     {items}
                 </tbody>
