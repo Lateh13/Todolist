@@ -42,6 +42,7 @@
 
 .style-table td {
   height: 20px;
+  padding: 2px 8px;
 }
 
 .style-table tr:nth-child(odd) {
