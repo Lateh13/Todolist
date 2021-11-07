@@ -18,8 +18,14 @@ function Todolist() {
         <tr key={index}>
             <td>{todo.description}</td>
             <td>{todo.date}</td>
+            <td><input type="submit" id={index} value="Delete" onClick={() => removeTodo(index)}/></td>
         </tr>
     )
+
+    const removeTodo = (index) => {
+        const newTodos = todos.filter((todo, i) => i !== index)
+        setTodos([...newTodos])
+    }
 
     return (
         <div className="center">
