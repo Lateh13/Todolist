@@ -51,7 +51,7 @@
 
 .center {
   text-align: center;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
 .heading {
@@ -59,11 +59,13 @@
   color: rgb(255, 255, 255);
   margin: auto;
   padding: 10px;
+  text-align: center;
 }
 
 .formStyle {
   padding: 20px;
   border-style: groove;
+  text-align: center;
 }
 
 
