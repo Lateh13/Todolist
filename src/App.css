@@ -33,9 +33,15 @@
   padding: auto;
 }
 
-.style-table th {
+.style-table-th {
   border-bottom: thin solid;
   background-color: rgb(162, 175, 189);
+  height: 25px;
+  min-width: 120px;
+}
+
+.style-table-th1 {
+  background-color: rgb(255, 255, 255);
   height: 25px;
   min-width: 120px;
 }
@@ -43,6 +49,7 @@
 .style-table td {
   height: 20px;
   padding: 2px 8px;
+  text-align: center;
 }
 
 .style-table tr:nth-child(odd) {

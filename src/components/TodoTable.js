@@ -7,8 +7,9 @@ export default function TodoTable(props, second) {
             <table className="style-table">
                 <tbody>
                     <tr>
-                        <th>Description</th>
-                        <th>Date</th>
+                        <th className="style-table-th">Description</th>
+                        <th className="style-table-th">Date</th>
+                        <th className="style-table-th1"></th>
                     </tr>
                     {props.todos.map((todo, index) => 
                         <tr key={index}>
