@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './App.css'
-import Todolist from "./Todolist";
+import Todolist from "./components/Todolist";
 
 export default function App() {
     return (
